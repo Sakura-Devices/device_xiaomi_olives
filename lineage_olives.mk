@@ -22,6 +22,11 @@ TARGET_USES_BLUR := true
 TARGET_USES_AOSP_CHARGER := true
 IS_PHONE := true
 
+# Sakura stuff
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := deadlylxrd
+SAKURA_BUILD_TYPE := coregapps
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olives
 PRODUCT_NAME := lineage_olives
